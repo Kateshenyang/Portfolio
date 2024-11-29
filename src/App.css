@@ -1,0 +1,39 @@
+.App {
+  text-align: left;
+}
+
+.container {
+  margin: 0 300px;
+}
+
+.toolbar {
+  display: flex;
+  margin: 20px 0;
+}
+
+.toolbar button {
+  border: 2px solid gray;
+  background-color: white;
+  color: gray;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.toolbar button.active {
+  background-color: gray;
+  color: white;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.project-list img {
+  width: 100%;
+  height: auto;
+}
